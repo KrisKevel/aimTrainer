@@ -1,0 +1,11 @@
+debug/About.o
+debug/Difficulty.o
+debug/Menu.o
+debug/Play.o
+debug/main.o
+debug/mainwindow.o
+debug/moc_About.o
+debug/moc_Difficulty.o
+debug/moc_Menu.o
+debug/moc_Play.o
+debug/moc_mainwindow.o

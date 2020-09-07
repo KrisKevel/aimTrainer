@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu</class>
+ <widget class="QWidget" name="MainMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>130</y>
+     <width>191</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="play">
+      <property name="text">
+       <string>Play</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="difficulty">
+      <property name="text">
+       <string>Difficulty</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="about">
+      <property name="text">
+       <string>About</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="quit">
+      <property name="text">
+       <string>Quit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>play</sender>
+   <signal>pressed()</signal>
+   <receiver>MainMenu</receiver>
+   <slot>initPlay()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>416</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>342</x>
+     <y>77</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quit</sender>
+   <signal>pressed()</signal>
+   <receiver>MainMenu</receiver>
+   <slot>initQuit()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>315</x>
+     <y>362</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>259</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>about</sender>
+   <signal>pressed()</signal>
+   <receiver>MainMenu</receiver>
+   <slot>initAbout()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>404</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>260</x>
+     <y>296</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>difficulty</sender>
+   <signal>pressed()</signal>
+   <receiver>MainMenu</receiver>
+   <slot>initDiff()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>343</x>
+     <y>234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>254</x>
+     <y>229</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>initPlay()</slot>
+  <slot>initQuit()</slot>
+  <slot>initAbout()</slot>
+  <slot>initDiff()</slot>
+ </slots>
+</ui>

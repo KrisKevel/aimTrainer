@@ -1,0 +1,11 @@
+release/About.o
+release/Difficulty.o
+release/Menu.o
+release/Play.o
+release/main.o
+release/mainwindow.o
+release/moc_About.o
+release/moc_Difficulty.o
+release/moc_Menu.o
+release/moc_Play.o
+release/moc_mainwindow.o
